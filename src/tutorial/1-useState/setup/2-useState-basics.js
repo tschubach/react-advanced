@@ -5,6 +5,7 @@ const UseStateBasics = () => {
   // const value = useState(1)[0];
   // const handler = useState(1)[1];
   // console.log(value, handler);
+
   const [text, setText] = useState('random title');
   const handleClick = () => {
     if (text === 'random title') {
